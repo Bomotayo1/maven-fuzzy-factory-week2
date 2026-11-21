@@ -5,6 +5,8 @@ Tools: SQL Server (SSMS) · Power BI Desktop · Power Query
 
 > How is Maven Fuzzy Factory performing, which products and marketing channels earn the money, how many visitors become buyers, and how much is lost to refunds?
 
+Full step-by-step record, including mistakes and fixes: **[docs/project_log.md](docs/project_log.md)**
+
 ---
 
 ## 1. The business question
@@ -37,8 +39,9 @@ Two pages, each with a page navigator and Year, Product (or Marketing Source) an
 | **Overview** | Total Orders, Total Revenue, Average Order Value, Total Refunds, Website Sessions, Conversion Rate · Revenue by month · Top performing products · Sales by product |
 | **Traffic** | Sessions, Conversion Rate, Total Refunds, Refund Value · Sessions by marketing channel · Sessions by device type · Refund analysis (refund rate by product, Refund Rate, Average Refund, Refund % of Revenue) |
 
- ![Overview Dashboard](images/Screenshot%202026-11-21%20091758.png)
- ![Page 2 Traffic](images/Screenshot%202026-11-21%20091836.png)
+![Overview Dashboard](images/Screenshot%202026-11-21%20091758.png)
+
+![Page 2 Traffic](images/Screenshot%202026-11-21%20091836.png)
 
 ## 4. Data, model and method
 
@@ -106,15 +109,13 @@ Two pages, each with a page navigator and Year, Product (or Marketing Source) an
 ```
 ├── README.md
 ├── sql/
-│   └── MavenFuzzyFactory_Week2.sql      # cleaning scripts and Q1 to Q10
+│   └── MavenFuzzyFactory_Week2.sql      # inspection, cleaning scripts and Q1 to Q10
 ├── powerbi/
 │   ├── Maven_Fuzzy_Factory_Dashboard.pbix
 │   └── MavenFuzzy_Custom.json           # Power BI theme
-├── images/                              # dashboard and Power Query screenshots
-├── docs/
-│   ├── project_log.md                   # step-by-step log of the analysis
-│   └── Week2_Report.pdf
-└── data/                                # not uploaded (see note)
+├── images/                              # dashboard screenshots
+└── docs/
+    └── project_log.md                   # step-by-step log of the analysis
 ```
 
 > The raw CSV files are not included in this repository.
@@ -122,13 +123,13 @@ Two pages, each with a page navigator and Year, Product (or Marketing Source) an
 ## 10. How to reproduce
 
 1. In SQL Server Management Studio, import each CSV with **Import Flat File** (all columns as `nvarchar(MAX)`, nulls allowed).
-2. Run `sql/MavenFuzzyFactory_Week2.sql`. It builds the five clean tables and answers Q1 to Q10.
+2. Run `sql/MavenFuzzyFactory_Week2.sql`. Part 2 builds the five clean tables (run it once) and Part 3 answers Q1 to Q10.
 3. Open the `.pbix` in Power BI Desktop and point the data source at your server and database.
 4. To apply the theme: View › Themes › Browse for themes › `MavenFuzzy_Custom.json`.
 
 ## 11. How I worked
 
-I wrote and ran the SQL myself and checked every result against a second source (another table, a hand calculation or the dashboard). Where a query was supplied to me, or corrected after an error, the project log says so. The log records every step, including the mistakes and how they were fixed.
+I wrote and ran the SQL myself and checked every result against a second source (another table, a hand calculation or the dashboard). Where a query was supplied to me, or corrected after an error, the [project log](docs/project_log.md) says so. The log records every step, including the mistakes and how they were fixed.
 
 ## Author
 
