@@ -124,7 +124,7 @@ Two pages, each with a page navigator and Year, Product (or Marketing Source) an
 
 1. In SQL Server Management Studio, import each CSV with **Import Flat File** (all columns as `nvarchar(MAX)`, nulls allowed).
 2. Run `sql/MavenFuzzyFactory_Week2.sql`. Part 2 builds the five clean tables (run it once) and Part 3 answers Q1 to Q10.
-3. Open the `.pbix` in Power BI Desktop and point the data source at your server and database.
+3. Open the [.pbix](MavenFuzzyFactory.pbix) in Power BI Desktop and point the data source at your server and database.
 4. To apply the theme: View › Themes › Browse for themes › `MavenFuzzy_Custom.json`.
 
 ## 11. How I worked
