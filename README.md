@@ -37,7 +37,7 @@ Two pages, each with a page navigator and Year, Product (or Marketing Source) an
 | **Overview** | Total Orders, Total Revenue, Average Order Value, Total Refunds, Website Sessions, Conversion Rate · Revenue by month · Top performing products · Sales by product |
 | **Traffic** | Sessions, Conversion Rate, Total Refunds, Refund Value · Sessions by marketing channel · Sessions by device type · Refund analysis (refund rate by product, Refund Rate, Average Refund, Refund % of Revenue) |
 
- [images/page1-overview.png](images/Screenshot 2026-11-21 091758.png)
+ ![images/page1-overview.png](images/Screenshot-2026-11-21-091758.png)
 `[add screenshot: images/page2-traffic.png]`
 
 ## 4. Data, model and method
