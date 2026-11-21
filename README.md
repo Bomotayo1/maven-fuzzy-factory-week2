@@ -134,6 +134,9 @@ I wrote and ran the SQL myself and checked every result against a second source 
 ## Author
 
 **Babatunde Omotayo** · AnalystLab Africa Experience Lab, Track 1: Data Analytics
-`[add LinkedIn link]` · `[add video link]`
+[LinkedIn](https://www.linkedin.com/in/omotayo-babatunde) · [![Watch the presentation on YouTube](https://img.youtube.com/vi/EhdINSj-TdY/hqdefault.jpg)](https://youtu.be/EhdINSj-TdY)
+
+▶️ [Watch the presentation on YouTube](https://youtu.be/EhdINSj-TdY)
+
 
 #AnalystLabAfrica
