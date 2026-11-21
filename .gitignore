@@ -1,0 +1,9 @@
+# Raw data is not uploaded
+*.csv
+data/
+
+# Power BI and OS clutter
+*.pbix.tmp
+.DS_Store
+Thumbs.db
+~$*
