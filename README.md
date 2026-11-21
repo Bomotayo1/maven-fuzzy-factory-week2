@@ -38,7 +38,7 @@ Two pages, each with a page navigator and Year, Product (or Marketing Source) an
 | **Traffic** | Sessions, Conversion Rate, Total Refunds, Refund Value · Sessions by marketing channel · Sessions by device type · Refund analysis (refund rate by product, Refund Rate, Average Refund, Refund % of Revenue) |
 
  ![Overview Dashboard](images/Screenshot%202026-11-21%20091758.png)
-`[add screenshot: images/page2-traffic.png]`
+ ![Page 2 Traffic](images/Screenshot%202026-11-21%20091836.png)
 
 ## 4. Data, model and method
 
